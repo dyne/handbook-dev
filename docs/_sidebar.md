@@ -1,6 +1,7 @@
 - [Welcome](/)
 - Devops
-  - [Node.js deployment](devops/node.md)
+  - [Node.js install on Devuan 💫](devops/node_install.md)
+  - [Node.js deployment](devops/node_deploy.md)
 
 - Additionals
   - [FAQ](overview/faq.md)
