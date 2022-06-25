@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dyne.org‘s Design System</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Description">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Syne:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+  /* https://jhildenbiddle.github.io/docsify-themeable/#/customization */
+  :root {
+    --base-font-size: 16px;
+    --theme-color: #8980F5;
+    --base-background-color: #FCEFDF;
+    --base-font-family: Syne, sans-serif;
+    --code-font-family: 'JetBrains Mono', monospace;
+  }
+  .sidebar-logo {
+    display: block;
+    width: 8rem;
+    vertical-align: bottom;
+    line-height: 1.6;
+    height: 8rem;
+    margin: 0 auto;
+  }
+  @media screen and (min-width: 1230px) {
+    :root {
+      --sidebar-width: 25rem;
+    }
+  }
+  </style>
+</head>
+<body>
+  <div id="app"></div>
+  <script>
+    window.$docsify = {
+      name: '<img src="assets/logo.png" data-origin="assets/logo.png" alt="Style Dictionary logo" class="sidebar-logo">Dyne.org‘s DEV handbook',
+      repo: 'dyne/handbook-dev',
+      loadSidebar: true,
+      auto2top: true,
+      themeable: {
+        readyTransition : true, // default
+        responsiveTables: true  // default
+      },
+      topMargin: 190,
+      pagination: {
+        crossChapter: true,
+        crossChapterText: true,
+      },
+      progress: {
+        position: "top",
+        color: "var(--theme-color,#42b983)",
+        height: "3px",
+      }
+    }
+  </script>
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-themeable@0/dist/js/docsify-themeable.min.js"></script>
+  <script src="//unpkg.com/docsify-copy-code@2"></script>
+  <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-progress@latest/dist/progress.min.js"></script>
+
+</body>
+</html>
