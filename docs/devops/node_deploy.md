@@ -12,8 +12,14 @@ here will share our experience on how better move within the messy .js world.
 ## Receipe
 
 1. Grab a [Devuan](https://devuan.org) 💫 machine
-1. Install node environment [see here](/devops/node_install.md)
+1. Install node environment [see here](/devops/node_install.md) wit the additional / useful tools
 1. Install the `pm2` as a global command
-1. Install the proxy software🦄
+
+```bash
+pnpm add --global pm2
+pm2 completion install
+```
+
+1. Install the proxy software 🦄
 1. Configure the github action on your repository
 1. Push edits and see the magic 🪄
