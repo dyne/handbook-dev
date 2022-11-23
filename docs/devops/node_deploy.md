@@ -23,3 +23,10 @@ pm2 completion install
 1. Install the proxy software 🦄
 1. Configure the github action on your repository
 1. Push edits and see the magic 🪄
+
+
+## Staging
+
+add an pm2 ecosystem file like https://github.com/dyne/pattern/blob/main/ecosystem.config.js
+
+
