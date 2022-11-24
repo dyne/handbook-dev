@@ -1,6 +1,6 @@
 - [Welcome](/)
 - Research
-  - [New projects checklist](research/new_project.md)
+  - [New projects checklist 🎉](research/new_project.md)
 - Devops
   - [Node.js install on Devuan 💫](devops/node_install.md)
   - [Node.js deployment](devops/node_deploy.md)

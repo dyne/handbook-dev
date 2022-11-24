@@ -1,25 +1,21 @@
 # New projects checklist
 
-When you start a new project in Dyne it's a moment of joy,
-for the people involved and for the purpose of the project you start.
+When you start a new project in Dyne it's a moment of joy, for the people involved and for the project you start.
 
-If you are the developer many of the times the purpose of the project,
-is for the joy of doing that! And dreaming about how your tech will enhance
-the society and its users.
+If you are the developer many of the time the purpose of the project, is for the joy of doing that! And dreaming about how your tech will enhance society and its users.
 
-Here some suggestions to boost it like just in Dyne.org we do.
+Here are some suggestions to make your project a Dyne.org project:
 
-- [ ] Start writing and coding alone or with your buddies till you feel happy enough to demo it at the standup
-- [ ] Add a LICENSE and the copyright (mostly you want to use and AGPLv3-or-later)
-- [ ] Document it with a essential subset of commands to run the software in the README.md and other standard info. You can copy from this [template](https://github.com/puria/readme)
-- [ ] Add more general documentation and the rationale of the project in the site by adding a page [here](https://github.com/dyne/dyne.github.io/tree/main/src/pages/software) if you need help for the text and copywriting give a shout to the clusterdyne group
-- [ ] Ask for a logo from the design people
-- [ ] Ask for a social post card or make one by yourself with [luigi](https://luigi.dyne.org)
-- [ ] Tweet it and ask the clusterdyne team to put it in the communication plan if it worths
-- [ ] Ask for review from the collegues for insightful opinions and reviews
-- [ ] Mention credits/aknowledgements explicitly if based on other persons work also
-- [ ] If a service add the status of monitoring to the [monitoring page](https://github.com/dyne/status)
-- [ ] Write in the public dyne chats announcing the joy
-- [ ] Enable the Sponsorships in the settings of your repo
-- [ ] Automate deployment if possible and suitable. Ask if need help and take inspiration from common and [shared workflows](https://github.com/dyne/workflows/tree/main/.github/workflows) like docker image publishing
-
+-   [ ] Ask people at Dyne.org for a review and note down opinions and criticism, do not take it personal 🦁 it will always be aimed at improving your project.
+-   [ ] Make sure to acknowledge all people 👯  who have contributed to the project or whose work the project is based upon.
+-   [ ] Add a LICENSE.txt file 📜 to the root of the project (use AGPLv3). Assign the copyright to the Dyne.org foundation and include your name, year and the short license statement **on every source code file**.
+-   [ ] Book a demo at the weekly standup 📆 or at a internal tech alignment, start showing what your project does and why, then how. Take notes of feedback.
+-   [ ] Announce the joy 🥳 in the public dyne chat channels
+-   [ ] Document the essential subset of commands to install and run the software 📖 in the README. You can use this [README template](https://github.com/puria/readme)
+-   [ ] Add more general documentation and the purpose and use-cases of the project ️🗺️ into a [Dyne.org website page](https://github.com/dyne/dyne.github.io/tree/main/src/pages/software) and file a PR asking for a review to the website curators.
+-   [ ] Propose your logo 🖼️ or ask designers for help by giving some ideas about images and things that share inspiration with what your project do.
+-   [ ] Make a promotional postcard ready for social distribution 📢 with [Luigi](https://luigi.dyne.org)
+-   [ ] Tweet about your project 🍷 and ask other people at Dyne.org to include it into the communication plan and announcement schedule.
+-   [ ] If your new project is a service then add the status of monitoring 🔭 to the [monitoring page](https://github.com/dyne/status)
+-   [ ] Enable Sponsorships 💰 in the settings of your repo: `echo “github: dyne” \> .github/FUNDING.yml`
+-   [ ] Automate deployment 🤖 if possible and suitable. Ask if need help and take inspiration from common and [shared workflows](https://github.com/dyne/workflows/tree/main/.github/workflows) like docker image publishing
