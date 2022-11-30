@@ -22,7 +22,7 @@ Most of our software is under Affero GPL 3 license that is identified by the `AG
 
 ### TL;DR
 
-```
+```bash
 reuse addheader --copyright="Dyne.org foundation" --copyright="Puria Nafisi Azizi <puria@dyne.org>" --license="CC0-1.0" .gitignore yarn.lock
 reuse addheader --copyright="Dyne.org foundation" --copyright="Puria Nafisi Azizi <puria@dyne.org>" --license="CC-BY-NC-SA-4.0" static/* 
 reuse addheader --copyright="Dyne.org foundation" --copyright="Puria Nafisi Azizi <puria@dyne.org>" --license="AGPL-3.0-or-later" <all the other files and directories>

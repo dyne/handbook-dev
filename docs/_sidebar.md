@@ -6,7 +6,8 @@
   - [Node.js deployment](devops/node_deploy.md)
 - Howtos
   - [Licensing](howto/licensing.md)
-
+- Design
+  - [Color Palette](design/colors.md)
 - Additionals
   - [FAQ](overview/faq.md)
   - [Resources](overview/resources.md)
