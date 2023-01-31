@@ -23,9 +23,9 @@ Most of our software is under Affero GPL 3 license that is identified by the `AG
 ### TL;DR
 
 ```bash
-reuse addheader --copyright="Dyne.org foundation" --copyright="Puria Nafisi Azizi <puria@dyne.org>" --license="CC0-1.0" .gitignore yarn.lock
-reuse addheader --copyright="Dyne.org foundation" --copyright="Puria Nafisi Azizi <puria@dyne.org>" --license="CC-BY-NC-SA-4.0" static/* 
-reuse addheader --copyright="Dyne.org foundation" --copyright="Puria Nafisi Azizi <puria@dyne.org>" --license="AGPL-3.0-or-later" <all the other files and directories>
+reuse annotate --copyright="Dyne.org foundation" --copyright="Puria Nafisi Azizi <puria@dyne.org>" --license="CC0-1.0" .gitignore yarn.lock
+reuse annotate --copyright="Dyne.org foundation" --copyright="Puria Nafisi Azizi <puria@dyne.org>" --license="CC-BY-NC-SA-4.0" static/* 
+reuse annotate --copyright="Dyne.org foundation" --copyright="Puria Nafisi Azizi <puria@dyne.org>" --license="AGPL-3.0-or-later" <all the other files and directories>
 reuse download --all
 git add .
 git commit -am "license: add reuse compliancy and licensing the software"
@@ -88,7 +88,7 @@ Use the licenses as below:
 Let's add for instance the CC0 to the .gitignore file:
 
 ```bash
-$ reuse addheader --copyright="Dyne.org foundation" --copyright="Puria Nafisi Azizi <puria@dyne.org>" --license="CC0-1.0" .gitignore
+$ reuse annotate --copyright="Dyne.org foundation" --copyright="Puria Nafisi Azizi <puria@dyne.org>" --license="CC0-1.0" .gitignore
 
 Successfully changed header of .gitignore
 ```
@@ -96,7 +96,7 @@ Successfully changed header of .gitignore
 Now let's add the binary file images with the Creative Commons like:
 
 ```bash
-reuse addheader --copyright="Dyne.org foundation" --copyright="Puria Nafisi A zizi <puria@dyne.org>" --license="CC-BY-NC-SA-4.0" static/* 
+reuse annotate --copyright="Dyne.org foundation" --copyright="Puria Nafisi A zizi <puria@dyne.org>" --license="CC-BY-NC-SA-4.0" static/* 
 Successfully changed header of static/02_howto.png.license
 Successfully changed header of static/Twitter post - 64.svg.license
 Successfully changed header of static/Twitter post - 97.svg.license
@@ -106,7 +106,7 @@ Successfully changed header of static/01_howto.png.license
 And now all the other files as the main sources,
 
 ```
-reuse addheader --copyright="Dyne.org foundation" --copyright="Puria Nafisi A
+reuse annotate --copyright="Dyne.org foundation" --copyright="Puria Nafisi A
 zizi <puria@dyne.org>" --license="AGPL-3.0-or-later" .github/workflows/deploy.yml README.md ecosystem.co
 nfig.js mechanic.config.js
 
